@@ -143,6 +143,34 @@ body{
     }
 }
 
+                /*крокодил*/
+
+.crocodile img{
+    width: 6vw;
+    height: 3vw;
+}
+.crocodile {
+    position: absolute;
+    top: 85%;
+    left: 80%;
+
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-name: crocodile;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes crocodile {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: -10%;
+    }
+}
+
+                /*алебарда*/
+
 
 
 
